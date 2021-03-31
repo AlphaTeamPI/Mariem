@@ -13,12 +13,16 @@ import java.util.List;
  * @param <T>
  */
 public interface Interface<T>  {
-    public void ajouter(T t);
+    public void ajouterUser(T t);
+    public void ajouterParticipant(T t);
     public int nombre();
-    public void supprimer(T t);
+    public void supprimer(String t);
     public void modifier(T t);
     public List<T> afficher();
-    public List<T> TrierNom();
-    public List<T> TrierPrenom();
-    public List<T> RechercheNom(String t);
+    public List<T> TrierUserName();;
+    public T RechercheID(String t);
+    public boolean modifierUserName(T t, String newValue);
+    public boolean modifierPassword(T t, String newValue);
+    public boolean modifierEmail(T t, String newValue);
+    public boolean modifierImage(T t, String newValue);
 }

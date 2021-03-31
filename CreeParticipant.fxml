@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="609.0" prefWidth="980.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.esprit.gui.CreeParticipantController">
+  <children>
+      <ImageView fitHeight="290.0" fitWidth="394.0" layoutX="804.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/back3louta.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="389.0" fitWidth="566.0" layoutX="267.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/back2.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="375.0" prefHeight="66.0" prefWidth="823.0" style="-fx-background-color: #535355;">
+         <children>
+            <Label layoutX="679.0" layoutY="21.0" prefHeight="31.0" prefWidth="126.0" text="Hello" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <ImageView fitHeight="42.0" fitWidth="52.0" layoutX="629.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pictures/icons8_Person_32px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <VBox alignment="TOP_CENTER" layoutX="-3.0" prefHeight="632.0" prefWidth="267.0" style="-fx-background-color: #535355;" />
+      <ImageView fitHeight="66.0" fitWidth="580.0" layoutX="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/aaaa.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="301.0" layoutY="12.0" prefHeight="42.0" prefWidth="316.0" text="Welcome" textFill="#eeeaea">
+         <font>
+            <Font name="Arial Bold" size="31.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="39.0" fitWidth="42.0" layoutX="265.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/icons8-chevron-right-50.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="264.0" prefHeight="632.0" prefWidth="5.0" style="-fx-background-color: #FF0000;" />
+      <ImageView fitHeight="177.0" fitWidth="231.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/ALPHA4.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="10.0" layoutY="202.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="243.0" style="-fx-background-color: #535355;" text="      Overview" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="71.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/icons8_Home_32px.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="10.0" layoutY="291.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="243.0" style="-fx-background-color: #535355;" text=" Events" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="32.0" layoutX="70.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/icons8-event-64.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="10.0" layoutY="392.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="243.0" style="-fx-background-color: #535355;" text="    Products" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="32.0" layoutX="68.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/icons8-product-32.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="10.0" layoutY="491.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="243.0" style="-fx-background-color: #535355;" text="Blogs" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="32.0" layoutX="67.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/icons8-blog-32.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="10.0" layoutY="581.0" mnemonicParsing="false" onAction="#ReturnBack" prefHeight="37.0" prefWidth="243.0" style="-fx-background-color: #535355;" text="Return Back" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="32.0" layoutX="51.0" layoutY="585.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/icons8_Sign_Out_32px.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="TFUserName" layoutX="304.0" layoutY="207.0" promptText="UserName" unFocusColor="BLACK" />
+      <JFXTextField fx:id="TFPassword" layoutX="304.0" layoutY="276.0" promptText="Password" unFocusColor="BLACK" />
+      <JFXTextField fx:id="TFEmail" layoutX="304.0" layoutY="338.0" promptText="Email" unFocusColor="BLACK" />
+      <JFXDatePicker fx:id="TFBirthday" defaultColor="#d486da" layoutX="304.0" layoutY="400.0" promptText="Birthday" />
+      <JFXTextField fx:id="TFImage" layoutX="304.0" layoutY="476.0" promptText="Image" unFocusColor="BLACK" />
+      <JFXButton fx:id="BtnUpload" layoutX="500.0" layoutY="491.0" onAction="#uploadfile" prefHeight="16.0" prefWidth="100.0" ripplerFill="#797979" style="-fx-background-color: transparent; -fx-background-radius: 90; -fx-border-radius: 90; -fx-border-color: #2A73FF;" text="Upload ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="ImageUser" fitHeight="150.0" fitWidth="200.0" layoutX="633.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="BAjouter" layoutX="1000.0" layoutY="413.0" mnemonicParsing="false" onAction="#AjouterUser" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #616161; -fx-background-radius: 90;" text="Sign up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ImageView fx:id="cap" fitHeight="150.0" fitWidth="200.0" layoutX="704.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXTextField fx:id="code" layoutX="917.0" layoutY="217.0" promptText="UserName" text="Write the code here" unFocusColor="BLACK" />
+   </children> 
+</AnchorPane>
